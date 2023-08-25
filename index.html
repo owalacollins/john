@@ -4,72 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <section class="hed">   
-  <nav>
-    <h1>John Kendrick</h1>
-  </nav>
-  <div class="title">
-    <h2>Hello,it`s me</h2>
-    <h1>John Kendrick</h1>
-    <h3>and im a <span>front end developer</span></h3>
-    <p>Lorem ipsum dolor sit amet consectetursaepe, deserunt architecto fugiat nesciunt quidem totam.</p>
-    <button>Download Cv</button>
-  <!--
-    <div class="social">
-<img src="social-instagram.png" alt="">
-<img src="social-media-facebook.png" alt="">
-    </div>
-  -->  
-  </div>
-</section>
-    </header>
-    <main>
-        <section>
-            <div class="clear about">
-            <img src="pple2.jpg" alt="">
-            <h1>about <span>me</span></h1>
-            <h2>frontend developer</h2>
-           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga commodi molestiae nostrum labore aliquam quibusdam, beatae, ab repellendus, harum laborum. Sapiente at ipsa optio repellat atque dolorem porro voluptatibus.</p>
-           <button>Read More</button>
+        <section class="header">
+       <nav>
+        <h1><font color="red">C</font>OLLINS .</h1>
+        <ul id="navbar">
+         <img  id="close" src="delet.png" alt="">
+      
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#main">about</a></li>
+            <li> <a href="#skills">skills</a></li>
+            <li> <a href="#">work</a></li>
+            <div class="social">
+               <img src="social-instagram.png" alt="">
+               <img src="messaging-whatsapp.png" alt="">
+               <img src="social-media-facebook.png" alt="">
+              
+            </div>
+        </ul>
+        <img id="menu"src="menu.png" alt="">
+       </nav>
+       <div class="home">
+        <div class="left">
+            <p>ui/ux developer</p>
+     <h2>I`M <span>COLLINS</span> </h2>
+     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi voluptatum mollitia dolorum. Eaque numquam vel neque. Sunt id odio, ratione corrupti doloribus soluta? In culpa eius expedita vitae exercitationem.</h5>
+     <a href="#"><button class="btn"> download cv</button></a>
         </div>
-        </section>
-        <section>
-            <h1 style="text-align: center;">My <span>Services</span></h1>
-            <div class="clear services">
-                <img src="religion-islam.png" alt="">
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex deserunt magni excepturi nulla quis perspiciatis consectetur, unde iste culpa quam, dolores quisquam, aut quod veritatis sunt iusto veniam dolorem!</p>
-                <button>Read More</button>
+       
+       </div>
+    </section> 
+    </header>
+   <main>
+    <section id="main">
+    
+
+       <h2>about <span>me</span></h2>
+<div class="main">
+       <div class="image">
+           <img src="image19.png" alt="">
+       </div>
+       
+      <div class="about">
+            <h5>about</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam eos quia illum numquam deserunt iure nam tempore est dolores officia, accusantium deleniti assumenda facilis dignissimos sequi quos voluptas delectus.</p>
+         
+           <div class="tablinks">
+            <h4 class="onetablink activelink" onclick="opentab('skills')">skills</h4>
+            <h4 class="onetablink"onclick="opentab('education')">education</h4>
+            <h4 class="onetablink" onclick="opentab('referees')">referees</h4>
+           </div>
+           
+         <div class="tabs">
+            <div class="tabcontent activetab" id="skills">
+                <h6>ui/ux</h6>
+            <p>Lorem ipsum doloreniet, nihil </p>
+            <h6>app developer</h6>
+            <p>Lorem ipsum doloreniet, nihil </p>
+            <h6>digital marketer</h6>
+            <p>Lorem ipsum doloreniet, nihil </p>
             </div>
-            <div class="clear services">
-                <img src="rating-half-star.png" alt="">
-                <h3>Graphics Designer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex deserunt magni excepturi nulla quis perspiciatis consectetur, unde iste culpa quam, dolores quisquam, aut quod veritatis sunt iusto veniam dolorem!</p>
-                <button>Read More</button>
+            <div class="tabcontent" id="education">
+                <h6>2001-2013</h6>
+            <p> kenya certificate of primary education</p>
+            <h6>2001-2013</h6>
+            <p> kenya certificate of primary education</p>
+            <h6>2001-2013</h6>
+            <p> kenya certificate of primary education</p>
             </div>
-            <div class="clear services">
-                <img src="social-instagram.png" alt="">
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex deserunt magni excepturi nulla quis perspiciatis consectetur, unde iste culpa quam, dolores quisquam, aut quod veritatis sunt iusto veniam dolorem!</p>
-                <button>Read More</button>
+            <div class="tabcontent" id="referees">
+               <h6>madam Liz</h6>
+              <p> <span>tel:</span>0701186824</p> 
+              <p>  <span>email:</span> liz@gmail.com </p>
+              <h6>madam Liz</h6>
+              <p> <span>tel:</span>0701186824</p> 
+              <p>  <span>email:</span> liz@gmail.com </p>
+              <h6>madam Liz</h6>
+              <p> <span>tel:</span>0701186824</p> 
+              <p>  <span>email:</span> liz@gmail.com </p>
             </div>
-        </section>
-        <section>
-         <div class="skills clear">
-           <h1 style="text-align: center;">My <span>Skills</span></h1>
-           <h3>digital marketing</h3>
-           <progress value="68" max="100">68%</progress>
-           <h3>digital marketing</h3>
-           <progress value="90" max="100">90%</progress>
-           <h3>digital marketing</h3>
-           <progress value="68" max="100">68%</progress>
-         </div> 
-        </section>
-    </main>
+         </div>
+      </div>
+</div>
+    </section>
+    <section id="skills">
+        <h2>my <span>skills</span></h2>
+        <div class="skill_all"> 
+
+   <div class="skills">
+  <div class="skil">
+    <h6>html 98%</h6>
+    <div class="progress">
+       <span class="html"></span>
+    </div>
+  </div>
+   
+
+   <div class="skil">
+    <h6>css 90%</h6>
+    <div class="progress">
+       <span class="css"></span>
+    </div>
+  </div>
+
+  <div class="skil">
+    <h6>javascript 60%</h6>
+    <div class="progress">
+       <span class="javascript"></span>
+    </div>
+  </div>
+
+  <div class="skil">
+    <h6>java 30%</h6>
+    <div class="progress">
+       <span class="java"></span>
+    </div>
+  </div>
+
+  <div class="skil">
+    <h6>php 70%</h6>
+    <div class="progress">
+       <span class="php"></span>
+    </div>
+  </div>
+
+  <div class="skil">
+    <h6>python 40%</h6>
+    <div class="progress">
+       <span class="python"></span>
+    </div>
+  </div>
+  <div class="skil">
+    <h6>msql 80%</h6>
+    <div class="progress">
+       <span class="mysql"></span>
+    </div>
+  </div>
+  
+  <div class="skil">
+   <h6>digital marketing 30%</h6>
+   <div class="progress">
+      <span class="digital"></span>
+   </div>
+ </div>
+        </div>
+   <div class="newsleter">
+     <legend>text me</legend>
+        <form action="">
+  <input type="text" name="name" placeholder="name">
+  <input type="email" name="email"placeholder="email" id="">
+  <textarea name="text"placeholder="text here" id="" cols="30" rows="10"></textarea>
+  <input type="submit" value="submit"  class="btn">
+    </form>
+   
+    </div>
+   </div>
+    </section>
+    <section id="moreskills">
+        <div class="cards">
+            <div class="card">
+                <h3>digital marketing</h3>
+                   
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptatem nisi numquam consequuntur sint velit. Quam unde aspernatur distinctio similique inventore nemo, velit veniam. Suscipit, alias dolor! Deleniti, iusto doloribus?</p>
+                   <a href="#"><button class="btn">More</button></a>
+            </div>
+            <div class="card">
+                <h3>web development</h3>
+                   
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptatem nisi numquam consequuntur sint velit. Quam unde aspernatur distinctio similique inventore nemo, velit veniam. Suscipit, alias dolor! Deleniti, iusto doloribus?</p>
+                   <a href="#"><button class="btn">More</button></a>
+            </div>
+            <div class="card">
+                <h3>app development</h3>
+                   
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptatem nisi numquam consequuntur sint velit. Quam unde aspernatur distinctio similique inventore nemo, velit veniam. Suscipit, alias dolor! Deleniti, iusto doloribus?</p>
+                   <a href="#"><button class="btn">More</button></a>
+            </div>
+        </div>
+    </section>
+   </main>
 </body>
+<script>
+var onetablinks = document.getElementsByClassName('onetablink');
+var tabcontents = document.getElementsByClassName('tabcontent');
+function opentab(tabname){
+    for(onetablink of onetablinks){
+ onetablink.classList.remove('activelink');
+}
+for(tabcontent of tabcontents){
+ tabcontent.classList.remove('activetab');
+}
+event.currentTarget.classList.add('activelink');
+document.getElementById(tabname).classList.add('activetab');
+}
+
+var menu = document.getElementById('menu');
+var navbar = document.getElementById('navbar');
+ var close = document.getElementById('close');
+if(menu){
+   menu.addEventListener('click',()=>{
+      //alert('welcome here');
+   navbar.classList.add('activenav');
+   })
+}
+if(close){
+   close.addEventListener('click',()=>{
+      //alert('welcome here');
+   navbar.classList.remove('activenav');
+   })
+}
+</script>
 </html>
